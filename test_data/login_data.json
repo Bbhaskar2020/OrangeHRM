@@ -1,0 +1,17 @@
+{
+  "valid_login": {
+    "username": "Admin",
+    "password": "admin123",
+    "expected": "Dashboard"
+  },
+  "invalid_login": {
+    "username": "WrongUser",
+    "password": "WrongPass",
+    "expected": "Invalid credentials"
+  },
+  "empty_password": {
+    "username": "Admin",
+    "password": "",
+    "expected": "Required"
+  }
+}
